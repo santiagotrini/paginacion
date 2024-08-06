@@ -1,0 +1,41 @@
+button {
+  font-size: 20px;
+  padding: 0.5em;
+}
+
+.buttons {
+  margin: 10px auto;
+  width: fit-content;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+}
+
+body {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(3,1fr) / repeat(7,1fr);
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 3px 3px 3px gray;
+  border: 1px solid black;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
