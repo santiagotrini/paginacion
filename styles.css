@@ -3,20 +3,21 @@ button {
   padding: 0.5em;
 }
 
-.buttons {
-  margin: 10px auto;
-  width: fit-content;
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+input {
+  font-size: 32px;
 }
 
 h2 {
   margin-bottom: 0;
 }
 
-h1 {
-  text-align: center;
-  display: inline;
-  margin-left: 10px;
-}
 
 body {
   font-family: Helvetica,Arial,sans-serif;
